@@ -221,7 +221,7 @@ const products = [
         id: 32,
         name: "Caixa de Som Hmaston 8w A prova D'agua",
         category: "audio",
-        price: 49.00,
+        price: 120.00,
         image: "img/caixa-de-som-hmaston-8w.jpg"
     }
 ];
