@@ -38,7 +38,7 @@ const products = [
     {
         id: 6,
         name: "Fone de Ouvido Intra Auricular LeLong",
-        category: "audio",
+        category: "fones",
         price: 20.00,
         image: "img/fone-ouvido-lelong.jpg"
     },
@@ -216,6 +216,13 @@ const products = [
         category: "fones",
         price: 49.00,
         image: "img/fone-bluetooth-headset.jpg"
+    },
+    {
+        id: 32,
+        name: "Caixa de Som Hmaston 8w A prova D'agua",
+        category: "audio",
+        price: 49.00,
+        image: "img/caixa-de-som-hmaston-8w.jpg"
     }
 ];
 
