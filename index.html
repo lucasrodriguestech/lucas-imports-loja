@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Imports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lucas Imports</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#cart">Carrinho</a></li>
+                </ul>
+            </nav>
+            <!-- WhatsApp floating button -->
+            <a href="https://wa.me/5543984866569" class="whatsapp-btn" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-vindo à Lucas Imports</h2>
+                <p>Seus produtos de eletrônicos com entrega rápida em Londrina e região.</p>
+                <a href="#products" class="btn">Ver Produtos</a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Produtos por Categoria</h2>
+                <div class="categories">
+                    <button class="category-btn active" data-category="all">Todos</button>
+                    <button class="category-btn" data-category="audio">Caixas de Som</button>
+                    <button class="category-btn" data-category="remotes">Controles Em Geral(Tv, TvBox e outros)</button>
+                    <button class="category-btn" data-category="gaming">Controles de Videogame</button>
+                    <button class="category-btn" data-category="fones">Fones de Ouvido</button>
+                    <button class="category-btn" data-category="suportes">Suportes</button>
+                    <button class="category-btn" data-category="ferramentas">Ferramentas</button>
+                    <button class="category-btn" data-category="maquininhas">Máquinas de cortar cabelo/pelos</button>
+                    <button class="category-btn" data-category="carregadores">Carregadores</button>
+                    <button class="category-btn" data-category="fontes">Fontes de Alimentação</button>
+                    <button class="category-btn" data-category="aparelhos">Tv Box</button>Mouse sem fio recarregável
+                    <button class="category-btn" data-category="utilitarios-pc">Utilitários para PC</button>
+                </div>
+                <div class="product-grid" id="product-grid">
+                    <!-- Products will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="cart" class="cart">
+            <div class="container">
+                <h2>Seu Carrinho</h2>
+                <div class="cart-items" id="cart-items">
+                    <!-- Cart items will be inserted here -->
+                </div>
+                <div class="cart-summary">
+                    <p>Total: <span id="cart-total">R$ 0,00</span></p>
+                    <button id="checkout-btn" class="btn">Finalizar Pedido</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lucas Imports. Todos os direitos reservados.</p>
+            <p>Londrina e região - Entrega rápida</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
